@@ -9,7 +9,7 @@ body {
 }
 
 .nav {
-  background-color: #0f0f0f;
+  background-color: #181818;
   width: 100%;
 }
 
@@ -21,13 +21,49 @@ body {
   margin-right: 28px;
 }
 
-.nav-list a{
+.nav-list a {
   color: #ddd;
   padding: 10px;
   margin: 10px;
   text-decoration: none;
 }
 
-.nav-list a:hover{
+.nav-list a:hover {
   color: #ffffff;
+}
+
+.main {
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-image: url(images/programador.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.main h1 {
+  color: #ffffff;
+  font-size: 54px;
+}
+
+.main p {
+  color: #1e96fc;
+  font-size: 24px;
+  font-style: italic;
+  margin-block: 10px 24px;
+}
+
+main a{
+  text-decoration: none;
+  color: #181818;
+}
+
+.call-to-action{
+  cursor: pointer;
+  padding: 14px;
+  border: none;
+  font-size: 18px;
+  border-radius: 4px;
 }
