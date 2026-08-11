@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+}
+
+.nav {
+  background-color: #0f0f0f;
+  width: 100%;
+}
+
+.nav-list {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 28px;
+}
+
+.nav-list a{
+  color: #ddd;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.nav-list a:hover{
+  color: #ffffff;
+}
