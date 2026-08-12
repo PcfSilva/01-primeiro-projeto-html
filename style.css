@@ -72,6 +72,7 @@ main a {
 }
 
 .about {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -90,4 +91,34 @@ main a {
   max-width: 450px;
   min-width: 50px;
   border-radius: 8px;
+}
+.projects{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 10%;
+}
+.projects h2{
+ font-size: 32px;
+ margin-bottom: 6px;
+}
+.projects p{
+  font-style: italic;
+  margin-bottom: 18px;
+}
+.projects-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projects-list img{
+  width: 22%;  
+  margin: .5%;
+  opacity: 0.8;
+  transition: 0.9s;
+}
+.projects-list img:hover{
+  opacity: 1;
 }
