@@ -144,3 +144,11 @@ main a {
 .action:hover{
   color: #ffffff;
 }
+footer{
+  padding-block: 70px;
+  background-color: #181818;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
