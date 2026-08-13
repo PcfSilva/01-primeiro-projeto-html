@@ -3,9 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: Roboto;
 }
@@ -132,7 +134,8 @@ main a {
 .projects-list img:hover {
   opacity: 1;
 }
-.action{
+
+.action {
   background-color: #181818;
   color: #ddd;
   cursor: pointer;
@@ -143,14 +146,56 @@ main a {
   font-size: 18px;
   transition: .9s;
 }
-.action:hover{
+
+.action:hover {
   color: #ffffff;
 }
-footer{
+
+footer {
   padding-block: 70px;
   background-color: #181818;
   color: #ffffff;
   display: flex;
   justify-content: center;
   font-size: 14px;
+}
+
+@media (max-width: 894px){
+  .about{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about div{
+    max-width: 75%;
+    margin-inline: auto;
+  }
+  .about img{
+    max-width: 70%;
+    margin-top: 14px;
+  }
+  .projects-list img{
+    width: 38%;
+  }
+}
+
+@media(max-width: 645px){
+  .nav-list{
+    justify-content: center;
+  }
+  .main{
+    padding-left: 0;
+    justify-content: center;
+  }
+  .main div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main h1{
+    text-align: center;
+    font-size: 42px;
+  }
+  .main a{
+    text-align: center;
+  }
 }
