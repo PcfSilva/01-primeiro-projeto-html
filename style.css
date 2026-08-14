@@ -26,6 +26,7 @@ body {
   align-items: center;
   justify-content: flex-end;
   margin-right: 28px;
+  list-style: none;
 }
 
 .nav-list a {
@@ -33,6 +34,7 @@ body {
   padding: 10px;
   margin: 10px;
   text-decoration: none;
+  transition: .5s;
 }
 
 .nav-list a:hover {
@@ -73,6 +75,12 @@ main a {
   border: none;
   font-size: 18px;
   border-radius: 4px;
+  color: #181818;
+  transition: .9s;
+}
+
+.call-to-action:hover{
+  transform: scale(1.05);
 }
 
 .about {
