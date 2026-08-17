@@ -60,7 +60,7 @@ O projeto utiliza a fonte **Roboto** através do Google Fonts.
 ### Home
 
 A página inicial apresenta uma mensagem de boas-vindas e uma chamada para conhecer os projetos.
-![Imagem do Home da página] (./images/home.png)
+![Imagem do Home da página](./images/home.png)
 
 ### Sobre
 
